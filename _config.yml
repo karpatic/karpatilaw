@@ -1,0 +1,77 @@
+# Site settings
+domain: karpatilaw.com
+title: Karpati Law
+email: nkarpati@karpatilaw.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "" # Leave empty for root-level access, e.g., karpatilaw.com
+url: https://karpatilaw.com
+
+# Author/Organization info
+author:
+  name: Karpati Law Firm
+  url: https://karpatilaw.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .rvmrc
+  - .rbenv-version
+  - README.md
+  - changelog.md
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections settings
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Title
+name: Karpati Law
+subtitle: 'Immigration Legal Consult'
+
+# Logo and branding
+logourl: /assets/img/dc_logo.png
+logoalt: The D.C. flag
+brand_color: "#DA253B"
+
+# Navigation
+navigation:
+- text: Home
+  internal: true
+  url: ./
+- text: Book a consultation
+  url: book-a-consultation
+- text: LinkedIn
+  url: https://www.facebook.com/KarpatiLawLLC/
+- text: Facebook
+  url: https://www.linkedin.com/in/nathalie-karpati/
+# - text: Edit this Repo
+#   internal: false
+#   url: https://karpatilaw.com
+# - text: Create a Glossary
+#   glossary: true
+
+# Google Analytics
+google_analytics_ua: 

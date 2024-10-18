@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+  {% include header.html %}
+
+  <body>
+    <div class="container">
+      <header role="banner">
+        <div class="wrap">
+          {% if site.logourl != null %}
+            <img class="logo" src="{{ site.baseurl }}{{ site.logourl }}" alt="{{ site.logoalt }}" width="75px">
+          {% endif %}
+          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+          <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
+            <div class="navbar">
+              <ul>
+                {% for link in site.navigation %}
+                  {% if link.glossary == true %}
+                      <li class="glossary-toggle">
+                        <a href="#glossary">{{ link.text }}</a>
+                      </li>
+                  {% elsif link.internal == true %}
+                      <li>
+                        <a href="{{ site.baseurl }}/{{ link.url }}">{{ link.text }}</a>
+                      </li>
+                  {% else %}
+                      <li>
+                        <a href="{{ link.url }}">{{ link.text }}</a>
+                      </li>
+                  {% endif %}
+                {% endfor %}
+              </ul>
+            </div>
+        </div>
+      </header>
+
+      <div class="wrap content">
+
+        {% include sidebar.html %}
+
+        <section id="main" class="main-content" role="main">
+          {{ content }}
+        </section>
+
+      </div><!-- /.wrap content -->
+
+      {% include glossary.html %}
+
+      {% include footer.html %}
+
+    </div> <!-- /.container -->
+    </body>
+    {% include scripts.html %}
+</html>
