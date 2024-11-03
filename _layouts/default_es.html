@@ -10,11 +10,11 @@
           {% if site.logourl != null %}
             <img class="logo" src="{{ site.baseurl }}{{ site.logourl }}" alt="{{ site.logoalt }}" width="75px">
           {% endif %}
-          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/en">{{ site.name }}</a></h1> 
+          <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/es/">{{ site.name }}</a></h1>
           <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
             <div class="navbar">
-              <ul> <!-- style="margin-bottom:-3px; " -->
-                {% for link in site.navigation %}
+              <ul>
+                {% for link in site.navegacion %}
                 <li>
                   {% if link.url contains 'http' %}
                     <!-- External link -->
@@ -28,16 +28,15 @@
                   {% endif %}
                 </li>
               {% endfor %}
-              
               </ul> 
             </div>
-            <img src="{{ site.baseurl }}/assets/img/flags.png" alt="Flags" width="100%">
+            <img src="{{ site.baseurl }}/assets/img/flags_divider.png" alt="Flags" width="100%">
         </div>
       </header>
 
       <div class="wrap content">
 
-        {% include sidebar.html %}
+        {% include sidebarEs.html %}
 
         <section id="main" class="main-content" role="main">
           {{ content }}
@@ -51,5 +50,5 @@
 
     </div> <!-- /.container -->
     </body>
-    {% include scripts.html %} 
+    {% include scripts.html %}
 </html>

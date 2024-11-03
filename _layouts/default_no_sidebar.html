@@ -13,7 +13,7 @@
           <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/en">{{ site.name }}</a></h1> 
           <h6 class="site-subtitle"> {{ site.subtitle }} </h6>
             <div class="navbar">
-              <ul> <!-- style="margin-bottom:-3px; " -->
+              <ul>
                 {% for link in site.navigation %}
                 <li>
                   {% if link.url contains 'http' %}
@@ -29,15 +29,12 @@
                 </li>
               {% endfor %}
               
-              </ul> 
+              </ul>
             </div>
-            <img src="{{ site.baseurl }}/assets/img/flags.png" alt="Flags" width="100%">
         </div>
       </header>
 
-      <div class="wrap content">
-
-        {% include sidebar.html %}
+      <div class="wrap content"> 
 
         <section id="main" class="main-content" role="main">
           {{ content }}

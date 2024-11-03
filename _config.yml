@@ -59,19 +59,44 @@ brand_color: "#DA253B"
 # Navigation
 navigation:
 - text: Home
-  internal: true
-  url: ./
+  url: /en/
 - text: Book a consultation
-  url: book-a-consultation
+  url: /en/book-a-consultation
+- text: LinkedIn
+  url: https://www.linkedin.com/in/nathalie-karpati/
+- text: Facebook
+  url: https://www.facebook.com/KarpatiLawLLC/
+- text: About
+  url: /en/about
+- text: Services
+  url: /en/services
+- text: 🇲🇽 Espanol 🇲🇽
+  url: /es/
+  float: right
+
+navegacion:
+- text: Inicio
+  internal: true
+  url: /es/
+- text: Reserva una consulta
+  url: /es/reserva-una-consulta
 - text: LinkedIn
   url: https://www.facebook.com/KarpatiLawLLC/
 - text: Facebook
   url: https://www.linkedin.com/in/nathalie-karpati/
+- text: Sobre
+  url: /es/sobre
+- text: Servicios
+  url: /es/servicios 
+- text: 🇺🇸 English 🇲🇽
+  url: /en/
+  float: right
 # - text: Edit this Repo
 #   internal: false
 #   url: https://karpatilaw.com
 # - text: Create a Glossary
 #   glossary: true
+
 
 # Google Analytics
 google_analytics_ua: 
