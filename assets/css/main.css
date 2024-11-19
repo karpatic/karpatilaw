@@ -134,11 +134,13 @@ Lists
 --------------------------------
 */
 
-.main-content ul {
+.main-content ul,
+.main-content-no-sidebar ul { 
     padding-left: 1.1em;
 }
 
-.main-content li {
+.main-content li,
+.main-content-no-sidebar li {
     margin-bottom: 1em;
 }
 
@@ -543,6 +545,11 @@ Desktop Styles
         margin-bottom: 120px;
     }
 
+    .main-content-no-sidebar {
+        width: 100%; 
+        margin-bottom: 120px;
+    }
+
     /*
     Navigation
     ==============================
@@ -619,5 +626,14 @@ Mobile Styles
     .main-content {
         margin-top: 1.5em;
     }
+    .main-content-no-sidebar {
+        margin-top: 1.5em;
+    }
 
 }
+
+
+.resized-image {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+  }

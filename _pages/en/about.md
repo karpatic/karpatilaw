@@ -4,8 +4,9 @@ title: About Nathalie Karpati
 ---
 
 # About Nathalie Karpati
-
-![Nathalie Karpati](/assets/img/me.jpg)
+ 
+<img src="/assets/img/courtOfAppealsDc-min.jpg" alt="Nathalie Karpati" class="resized-image">
+<img src="/assets/img/courtOfAppealsMd-min.jpg" alt="Nathalie Karpati" class="resized-image">
 
 ## Professional Background
 
