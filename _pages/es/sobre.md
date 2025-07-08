@@ -35,8 +35,8 @@ Nathalie obtuvo su Doctorado en Jurisprudencia (J.D.) de la Facultad de Derecho 
 ## Información de Contacto
 
 **The Law Office of Nathalie Karpati**  
-53 Nicholson St NW  
-Washington, DC 20011-2313  
+8606 2nd Ave 
+Silver Spring, MD 20910  
 [Correo electrónico: nathalie.karpati@gmail.com](mailto:nathalie.karpati@gmail.com)  
 [Teléfono: (301) 300-4971](tel:+13013004971)
 

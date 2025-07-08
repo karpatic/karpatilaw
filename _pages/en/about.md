@@ -34,8 +34,8 @@ Nathalie earned her Juris Doctor (J.D.) from the **University of Baltimore Schoo
 ## Contact Information
 
 **The Law Office of Nathalie Karpati**  
-53 Nicholson St NW  
-Washington, DC 20011-2313  
+8606 2nd Ave  
+Silver Spring, MD 200910  
 [Email: nathalie.karpati@gmail.com](mailto:nathalie.karpati@gmail.com)  
 [Phone: (301) 300-4971](tel:+13013004971)
 
