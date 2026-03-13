@@ -10,7 +10,7 @@ the `_config.yml` file — this configures the DCgov style template for your spe
 - [Set the `exclude:` entries.](#set-exclude-entries)
 - [Register new pages.](#register-new-pages)
 - [Update the repository list.](#update-repository-list)
-- [Optional: Update `google_analytics_ua:`.](#set-google-analytics)
+- [Optional: Update `google_analytics_id:`.](#set-google-analytics)
 
 ## <a name="set-name"></a>Set the guide name
 
@@ -75,7 +75,8 @@ The `repos:` entry of this template contains:
 ~~~
 {: .language-yaml}
 
-## <a name="set-google-analytics"></a>Optional: update `google_analytics_ua:`
+## <a name="set-google-analytics"></a>Optional: update `google_analytics_id:`
 
-The `google_analytics_ua:` property can be optionally set to the Google Analytics
-account identifier, if there is one.
+The `google_analytics_id:` property can be optionally set to the GA4
+Measurement ID (for example, `G-XXXXXXXXXX`) from your Google Analytics
+web data stream.
