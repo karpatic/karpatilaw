@@ -352,6 +352,45 @@ header {
     color: #FFF;
     border-bottom: none;
 }
+
+.flags-banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.flags-banner-track {
+    display: flex;
+    width: 200%;
+    animation: flags-scroll 200s linear infinite;
+    will-change: transform;
+}
+
+.flags-banner-image {
+    flex: 0 0 50%;
+    width: 50%;
+    max-width: none;
+    display: block;
+}
+
+@keyframes flags-scroll {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .flags-banner-track {
+        animation: none;
+        transform: translateX(0);
+    }
+
+    .flags-banner-image[aria-hidden="true"] {
+        display: none;
+    }
+}
 /*
 Footer
 ==================================
@@ -424,6 +463,20 @@ Helpers
 Style
 ==================================
 */
+
+.sidebar-profile {
+    max-width: 20rem;
+}
+
+.profile-photo {
+    display: block;
+    width: 100%;
+    max-width: 20rem;
+    aspect-ratio: 4 / 5;
+    margin: 0 0 1rem 0;
+    object-fit: cover;
+    object-position: center 18%;
+}
 
 .intro {
     color: #75787B;
@@ -633,7 +686,51 @@ Mobile Styles
 }
 
 
-.resized-image {
-    width: 200px; /* Adjust the width as needed */
-    height: auto; /* Maintains aspect ratio */
-  }
+.credential-gallery {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    align-items: start;
+    margin: 0 0 2rem 0;
+}
+
+.credential-figure {
+    flex: 1 1 0;
+    margin: 0;
+    min-width: 0;
+}
+
+.credential-frame {
+    background: #f7f2e7;
+    border: 8px solid #c4a46a;
+    border-radius: 4px;
+    box-shadow: inset 0 0 0 1px rgba(111, 78, 24, 0.18);
+    padding: 0.45rem;
+}
+
+.credential-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border: 1px solid #d7dadd;
+    border-radius: 2px;
+    box-shadow: 0 8px 18px rgba(38, 50, 56, 0.08);
+}
+
+.credential-caption {
+    color: #4f5b66;
+    font-size: 0.88em;
+    line-height: 1.35;
+    margin-top: 0.45rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 40.5em) {
+    .credential-gallery {
+        flex-wrap: wrap;
+    }
+
+    .credential-figure {
+        flex-basis: 100%;
+    }
+}

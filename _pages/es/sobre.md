@@ -4,9 +4,30 @@ title: Sobre
 ---  
 
 # Sobre Nathalie Karpati
- 
-<img src="/assets/img/courtOfAppealsDc-min.jpg" alt="Nathalie Karpati" class="resized-image">
-<img src="/assets/img/courtOfAppealsMd-min.jpg" alt="Nathalie Karpati" class="resized-image"> 
+
+<section class="credential-gallery" aria-label="Credenciales profesionales">
+  <figure class="credential-figure">
+    <div class="credential-frame">
+      <img
+        src="/assets/img/courtOfAppealsDc-min.jpg"
+        alt="Certificado de admisión del Tribunal de Apelaciones del Distrito de Columbia"
+        class="credential-image"
+      >
+    </div>
+    <figcaption class="credential-caption">Certificado de admisión del District of Columbia Court of Appeals</figcaption>
+  </figure>
+
+  <figure class="credential-figure">
+    <div class="credential-frame">
+      <img
+        src="/assets/img/courtOfAppealsMd-min.jpg"
+        alt="Certificado de admisión del Tribunal de Apelaciones de Maryland"
+        class="credential-image"
+      >
+    </div>
+    <figcaption class="credential-caption">Certificado de admisión del Court of Appeals of Maryland</figcaption>
+  </figure>
+</section>
 
 ## Experiencia Profesional
 
