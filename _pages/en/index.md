@@ -10,20 +10,4 @@ Welcome to our official website, where you can learn more about Nathalie Karpati
 
 For detailed information, please visit our [About Page](/en/about) or explore our [Services Page](/en/services).
 
-<!-- Google Calendar Appointment Scheduling begin -->
-<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
-<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
-<script>
-(function() {
-  var target = document.currentScript;
-  window.addEventListener('load', function() {
-    calendar.schedulingButton.load({
-      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ0US1XJ-KYYHPiTZ0-ch0PKjuo-Smg8enoFJMjoal8x7bvLMxNjH0mVA-SQdpR9IKuMXQi0hlpO?gv=true',
-      color: '#039BE5',
-      label: 'Book an appointment',
-      target,
-    });
-  });
-})();
-</script>
-<!-- end Google Calendar Appointment Scheduling -->
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfRslHEwBLHckvK8oZDXwQ4bUnG8hHQXFL21eeBNdzQ6ONPoA/viewform?embedded=true" width="100%" height="1300" frameborder="0" marginheight="0" marginwidth="0" scrolling="no" style="border:0;max-width:640px;">Loading…</iframe>
