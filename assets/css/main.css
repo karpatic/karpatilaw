@@ -482,6 +482,82 @@ Style
     color: #75787B;
 }
 
+/*
+Consultation form
+----------------------------------
+The embedded Google Form is cross-origin; these styles polish the surrounding
+presentation without targeting controls inside the iframe.
+*/
+
+.consultation-contact {
+    border-top: 4px solid {{ site.brand_color }};
+    margin-top: 2.25em;
+    padding-top: 1.35em;
+}
+
+.consultation-contact:before {
+    content: none;
+    display: none;
+}
+
+.consultation-contact__intro {
+    border-bottom: 1px solid #d7dadd;
+    padding-bottom: 1.15em;
+}
+
+.consultation-contact__eyebrow {
+    color: {{ site.brand_color }};
+    font-family: "Avenir Next Demi", "Avenir Next", Arial, sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin: 0 0 0.45em 0;
+    text-transform: uppercase;
+}
+
+.consultation-contact h2 {
+    color: #333f48;
+    font-family: "Avenir Next Demi", "Avenir Next", Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.25;
+    margin: 0 0 0.5em 0;
+}
+
+.consultation-contact__intro p {
+    max-width: 44rem;
+}
+
+.consultation-contact__language-note {
+    border-left: 3px solid #babbbd;
+    color: #4f5b66;
+    margin-bottom: 0;
+    padding-left: 0.85em;
+}
+
+.consultation-contact__form-shell {
+    background: #fff;
+    border: 1px solid #d7dadd;
+    border-radius: 4px;
+    box-shadow: 0 10px 24px rgba(51, 63, 72, 0.10);
+    margin-top: 1.25em;
+    max-width: 680px;
+    overflow: hidden;
+}
+
+.consultation-contact__iframe {
+    background: #fff;
+    border: 0;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+}
+
+.consultation-contact__fallback {
+    color: #4f5b66;
+    font-size: 0.9375em;
+    margin: 0.75em 0 0 0;
+}
+
 li h4 {
     margin: 0;
 }
@@ -681,6 +757,19 @@ Mobile Styles
     }
     .main-content-no-sidebar {
         margin-top: 1.5em;
+    }
+
+    .consultation-contact {
+        margin-top: 1.75em;
+        padding-top: 1.1em;
+    }
+
+    .consultation-contact__form-shell {
+        border-left: none;
+        border-right: none;
+        border-radius: 0;
+        margin-left: -20px;
+        margin-right: -20px;
     }
 
 }
